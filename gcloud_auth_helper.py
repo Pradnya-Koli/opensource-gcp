@@ -29,7 +29,7 @@ class GcloudAuthHelper:
         self.project_id = None
         self.user_email = None
 
-    _GCLOUD_CRED_FILE = "searce-practice-data-analytics-12020779ce04"
+    _GCLOUD_CRED_FILE = "/root/opensource-gcp/searce-practice-data-analytics-12020779ce04"
     _APPLICATION_DEFAULT_LOGIN_COMMAND = "gcloud auth application-default login"
     _AUTH_LIST = "gcloud auth list"
     _AUTH_LOGIN = "gcloud auth login"
