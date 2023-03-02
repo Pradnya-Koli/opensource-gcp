@@ -29,7 +29,7 @@ def mysql_ddl_extractor():
         cur.execute(sql)
         result = cur.fetchall()
         frame1 = pd.DataFrame(result)
-        print("frame", frame1)
+   #     print("frame", frame1)
         ddl = []
 
 
@@ -55,7 +55,7 @@ def mysql_ddl_extractor():
 
         for ind in ddl:
             text = ind
-            # print(text)
+#            print(text)
             text = str(text)
             text = re.sub(r'[\[{}\]]', '', text, flags=re.IGNORECASE)
             # text = re.sub(r'\\n','', text, flags=re.IGNORECASE)
@@ -65,8 +65,10 @@ def mysql_ddl_extractor():
             spilt_strig = spilt_strig.replace("'", "")
             spilt_strig = spilt_strig.replace("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", " ").replace("ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1) ;"," ")
             spilt_strig = spilt_strig.replace(
-                "ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", " ").replace(" ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1) ; "," ").replace("ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1)"," ")
-            print(spilt_strig)
+                "ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", " ")
+            spilt_strig = spilt_strig.replace(" ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1) ; "," ")
+            spilt_strig = spilt_strig.replace("ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1)"," ").replace("ENGINE=InnoDB DEFAULT CHARSET=latin1)"," ").replace("ENGINE=InnoDB DEFAULT CHARSET=latin1)"," ")
+           # print(spilt_strig)
             temp = spilt_strig.split(" ")
             mysqlddl = ""
             for i in range(len(temp)):
@@ -76,7 +78,7 @@ def mysql_ddl_extractor():
 
                 else:
                     mysqlddl = mysqlddl + temp[i]+" "
-                    print(mysqlddl)
+#                    print(mysqlddl)
             print(mysqlddl)
             f = open("Source_DDL/source_ddl.sql", "a+")
             f.write(mysqlddl + ";" + "\n")
