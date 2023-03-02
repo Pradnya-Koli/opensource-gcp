@@ -137,7 +137,7 @@ class BatchSqlTranslator:  # pylint: disable=too-many-instance-attributes
             f"{self.config.translation_config.location},{workflow_uuid}"
             f"?projectnumber={self.config.gcp_settings.project_number}"
         )
- def _wait_until_job_finished(
+    def _wait_until_job_finished(
         self, workflow_id: str, length_seconds: int = 600
     ) -> None:
         """Waits until the workflow finishes by calling the Migration Service API every
