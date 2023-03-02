@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "searce-practice-data-analytics",
+  "private_key_id": "12020779ce04b7d50072dfb7d36bf4bc9c4ca47a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6G43G5LbgNrCt\nIEl4HuYrTlqEe33r6iCcL7vk8vMNffbhfg0ciw//Y0crX1x6E2QVYEybXm8KzOEy\nBOsNCUinB2e0hkCVo08UtlkhPu9L2QaTMOm5BMaVOzehhn0lQtd7QZJQXPU57RmC\nL097S+qpV3+HMrD4f35LkY72GFSD9nxlyz9PNRkkgJFPSPVJKQ844HZ5GOcjR2Z8\n6B3QkIM5AO1XaARrfqDM9AggHaSx07ywAjriFfAvSDUEooG0WxlE4VKLVfBtCEvl\nYNu1z05x79+4SDvKG429QhI2o8vaM8bM3puIBVgXSPRiXiFbFg6q51gtITwFgj6V\nEbywWxpXAgMBAAECggEAF/0YO8RcXC9Ae7hXMAAPnBJn8X63fvK5TFiMyBiWwqzz\nZyJnzz+PitRBprIOif+43VaB2V8FQieheWCP6ajCMCFwuSC6727S8TEF8RabIrQx\nOETMQ5h9flvZMl1TATwJ6W3MzcYFp/dLW+/8N0DUWQqZuhQLIqTQYy46drcxIacq\nIT2+NfR11xmVW9ZRqEAHw8TsRMd48u3ZKrBJT4xdbpaxkVq4FO/nfOj9yjG3dTuR\nFmy5DqGWHvSqddP5AvxvGX+T5G2HnCliVlQ+b1TVv2SXKFCBQcP833G99aCEJ0Et\n3sKRg53FaI0UlmA4H3gFRy4n/uz4/iTm7PvP7Ahy6QKBgQDbiVeoH8WjEX25vECG\nz/cesLZBm+5a6Fgg3vz3I1Hgjavbq/NBU0m2xxCWfjwzS+OHLbkUEo4D8mgZTrml\nfaOQJ3Z79p0E9Isy1bIBD7sSmrieDXs5enXDG6MhuZeKkVMoRSu6Mioo1a9zO/EO\noSkSQS9oqBtHn4YAX1JPGAbgPwKBgQDZBNJHici3E4dSJQVi1ZLanMgX7o3KBlTl\ncYIdVSxsPkLtRa8OK4bFDoak+m5e9ZE5V75XRcLIQ8LWGcA57sKA2+C2Tl8/JtE9\nQQBtOxwn9C1QpAHzC2DrbFdsRcHopmc238/X48ubb0jUL8ftUw05C/zX7MH0ADmT\n7jx/vLa/6QKBgGfkGO1hC8BduKe65LZnmESXz8hAqI2wwnPb0s6Jkme344pzVwyl\nA49RqRHu70I/OY9xHdLX7QkFICpJzST5zfucEUActrXvnCgUZMaH0Tm+qntxWc0b\nnLsWSx7cm1Bh8X5vLYBR2Q22Ae+AgFUyAyO2YV8fnrlITrvCYEs5zZc1AoGAUkWG\npkIwyl7n5RdN1GsdEi1vmcsBC76cvqLqbc5VWe+8lZDeTWPo4pmgJ7kc0HkOBgwi\nh5lVv3AY0+vNOOkv6YPxy4sohptjpXIYBFDtWqQx7alPZ+E/a+CVv+EuItG6vU3Z\n0IF2NcXZeT9n7quWjrLhtsX1vVe8fD1LyC01pskCgYEAjCHDuk7NnlgEezbeEwXP\ngGkIOCZG8rtOztec0yNcJbDEuP5/ipTavoqsvMwr8s0KxnsfX7fMSS81ZT595vnN\nUK+8Eej3sVLWSYeZ9o9Txwvgqc0f+Bs1eNxsgdro1E8U8qgOqA4FaWEMgBcRSwgS\nx8Ai3q5hrO6LpMhuUBfc1h8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "teradata@searce-practice-data-analytics.iam.gserviceaccount.com",
+  "client_id": "110873126724829601793",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/teradata%40searce-practice-data-analytics.iam.gserviceaccount.com"
+}

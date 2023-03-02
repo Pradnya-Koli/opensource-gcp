@@ -1,0 +1,9 @@
+{
+    "details":{
+        "host": "127.0.0.1",
+        "username": "root",
+        "password": "rootuser#123",
+        "port": 3306,
+        "database": "gcp_roadshow_demo"
+    }
+}
