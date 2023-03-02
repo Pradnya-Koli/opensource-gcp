@@ -63,9 +63,9 @@ def mysql_ddl_extractor():
             spilt_strig = text.split(' ', 1)[1]
             spilt_strig = spilt_strig.replace("\\n", "\n")
             spilt_strig = spilt_strig.replace("'", "")
-            spilt_strig = spilt_strig.replace("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", "")
+            spilt_strig = spilt_strig.replace("ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", " ").replace("ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1) ;"," ")
             spilt_strig = spilt_strig.replace(
-                "ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", " ").replace("ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1)"," ")
+                "ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci)", " ").replace(" ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1) ; "," ").replace("ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1)"," ")
             print(spilt_strig)
             temp = spilt_strig.split(" ")
             mysqlddl = ""
